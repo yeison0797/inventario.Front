@@ -4,24 +4,15 @@ import '../hojas-de-estilo/IzqProductos.css';
 // import { click } from "@testing-library/user-event/dist/click";
 
 export function IzqProductos(){
-  const btn = document.querySelector('.btn'),
-    input = document.querySelector('.input');
 
-  btn.addEventListener('click', () => {
-    btn.classList.toggle('close');
-    input.classList.toggle('inclicked');
-  });
   return(
     <div className="izq">
       <div className="busqueda-agregar">
         <div className="middle">
-          {/* <div className="search-input">
-            <input type='text' icon={<BsSearch />} placeholder="search " className="entrada-busqueda"/>   
-            <i className="iconos"><BsSearch style={{  position:"relative", left:"100%"}} /></i>     
-          </div> */}
+      
           <form action="" className="search-box">
             <input type="text" className="input"/>
-            <button className="btn" type="button"></button>
+            <button className="btn" id="" type="button"></button>
           </form>
         </div>
       </div>
@@ -31,10 +22,5 @@ export function IzqProductos(){
     </div>
   )
 }
-const btn = document.querySelector('.btn'),
-input = document.querySelector('.input');
 
-btn.addEventListener('click', () => {
-btn.classList.toggle('close');
-input.classList.toggle('inclicked');
-});
+

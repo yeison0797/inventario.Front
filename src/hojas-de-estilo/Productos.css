@@ -1,12 +1,13 @@
 .contenedor-main{
-    width: 100%;
+    width: 90%;
     height: 100vh;
-    display: grid;
+    position: absolute;
+    top: 0%;
+    left: 4%;
+    overflow: visible;
 }
 
 .productos{
-    
-   
     background-color: white;
     font-family: lato, sans-serif;
     display: grid;
