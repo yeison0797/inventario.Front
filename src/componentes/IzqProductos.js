@@ -1,7 +1,8 @@
 import React from "react";
 import '../hojas-de-estilo/IzqProductos.css';
-// import { BsSearch } from "react-icons/bs";
-// import { click } from "@testing-library/user-event/dist/click";
+import { BsSearch } from "react-icons/bs";
+import { AiOutlinePlus } from "react-icons/ai";
+
 
 export function IzqProductos(){
 
@@ -15,10 +16,19 @@ export function IzqProductos(){
             <button className="btn" id="" type="button"></button>
           </form>
         </div>
+        <div className="boton-agregar">
+          <button className="btn-agregar" type="submit">
+            <AiOutlinePlus style={{ fontSize: '2.2vh', color:'white'}}/>
+            <label className="label-agregar">
+              Agregar producto
+            </label>
+          </button>
+        </div>  
       </div>
-      <div className="abajo">
-          adios
+      <div className="contenido-productos">
+        hola
       </div>
+
     </div>
   )
 }
