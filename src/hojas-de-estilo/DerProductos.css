@@ -1,0 +1,13 @@
+.der{
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 11vh;
+    font-family: serif;
+    font-weight: bold;
+    background-color: rgb(236, 236, 236);
+    color: black;
+}

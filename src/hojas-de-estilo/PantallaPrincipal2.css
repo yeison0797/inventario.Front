@@ -1,0 +1,102 @@
+.contenedor-inicio {
+    /* height: 100%; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+    font-family: serif;
+    font-weight: bold;
+}
+
+.contenedor-sesion {
+    display: flex;
+    width: 85%;
+    height: 90%;
+    
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 45px;
+    padding-right: 30px;
+    justify-content: flex-start;
+    background-color: #ffffff;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+    overflow: hidden;
+
+
+
+}
+
+h1 {
+    font-size: 4vw;
+    padding-top: 100px;
+    padding-left: 80px;
+}
+
+.email {
+    padding-left: 80px;
+    font-size: 1.5vw;
+    padding-top: 60px;
+}
+
+.formulario-ingreso {
+    padding-left: 80px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    overflow-x: hidden;
+}
+
+.nombre-contraseña {
+    font-size: 1.5vw;
+    padding-top: 15px;
+}
+
+.entrada-inputs {
+    height: 2.5em;
+    width: 40rem;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
+.entrar-boton {
+    height: 3em;
+    width: 40rem;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Lato;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid rgb(6, 193, 50);
+    cursor: pointer;
+    user-select: none;
+
+}
+
+.entrar-boton:hover {
+    background-color: rgb(1, 28, 1);
+}
+
+.error-email {
+    font-size: 1.4vh;
+    margin-bottom: 1px;
+    color: red;
+    font-family: sans-serif;
+
+}
+
+.error-pass {
+    font-size: 1.4vh;
+    margin-bottom: 80px;
+    color: red;
+    font-family: sans-serif;
+}
