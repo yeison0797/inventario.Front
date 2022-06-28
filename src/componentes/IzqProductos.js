@@ -5,16 +5,16 @@ import { AiOutlinePlus } from "react-icons/ai";
 
 
 export function IzqProductos(){
-
   return(
     <div className="izq">
       <div className="busqueda-agregar">
-        <div className="middle">
-      
-          <form action="" className="search-box">
-            <input type="text" className="input"/>
-            <button className="btn" id="" type="button"></button>
-          </form>
+        
+        <div className="search-input">
+          {/* <i className="iconos"><BsSearch style={{  position:"relative", left:"100%"}} /></i>      */}
+          <input type='text' icon={<BsSearch />} placeholder="search " className="entrada-busqueda"/>   
+          
+        </div> 
+        <div className="espacio2">
         </div>
         <div className="boton-agregar">
           <button className="btn-agregar" type="submit">
@@ -32,5 +32,3 @@ export function IzqProductos(){
     </div>
   )
 }
-
-
