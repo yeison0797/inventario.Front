@@ -1,5 +1,5 @@
 import React from "react";
-import '../hojas-de-estilo/PoupCrear.css';
+import './css/PoupCrear.css';
 
 export function PoupCrear(){
   return(

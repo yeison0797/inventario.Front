@@ -1,5 +1,5 @@
 import React from "react";
-import '../css/PantallaPrincipal.css';
+import '../hojas-de-estilo/PantallaPrincipal.css';
 import { Link } from "react-router-dom";
 
 

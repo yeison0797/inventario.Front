@@ -1,18 +1,16 @@
 .tarjeta{
-    width: 80%;
-    height: 16vh;
+    display: block;
+    height: 7em;
     background-color: white;
     border-radius: 20px;
     border: solid black;
     display: flex;
     align-items: center;
-    padding-bottom: 15px;
 }
 
 .check-nombre{
     height: 100%;
     width: 24vw;
-    /* background-color: aquamarine; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -35,7 +33,7 @@
 .cantidad-unidad{
     height: 100%;
     width: 24vw;
-    /* background-color: aquamarine; */
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -54,7 +52,6 @@
 .existencias{
     height: 100%;
     width: 12vw;
-    /* background-color: aquamarine; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,7 +61,6 @@
 .btn-existencias{
     height: 30%;
     width: 8vw;
-    /* background-color: rgb(233, 230, 230); */
     display: flex;
     justify-content: center;
     align-items: center;

@@ -1,5 +1,5 @@
 import React from "react";
-import '../hojas-de-estilo/BusquedaTrabajadores.css';
+import './css/BusquedaTrabajadores.css';
 
 export function BusquedaTrabajadores(){
   return(

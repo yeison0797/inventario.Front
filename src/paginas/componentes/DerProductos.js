@@ -1,5 +1,5 @@
 import React from "react";
-import '../hojas-de-estilo/DerProductos.css';
+import './css/DerProductos.css';
 import { ProductoSolicitado } from './ProductoSolicitado';
 import { BusquedaTrabajadores } from './BusquedaTrabajadores';
 

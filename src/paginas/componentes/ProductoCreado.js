@@ -1,5 +1,5 @@
 import React from "react";
-import '../hojas-de-estilo/ProductoCreado.css';
+import './css/ProductoCreado.css';
 
 
 export function ProductoCreado (props){
@@ -8,7 +8,7 @@ export function ProductoCreado (props){
       {/* checkbox y nombre con id */}
       <div className="check-nombre">
         <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+          <input class="form-check-input bg-dark border-0" type="checkbox" value="" id="flexCheckDefault"/>
         </div>
         <div className="nombre-id">
           <label className="id">ID {console.log(props)}</label>
@@ -18,7 +18,7 @@ export function ProductoCreado (props){
       {/* cantidad y unidad */}
       <div className="cantidad-unidad">
         <label className="cantidad">200</label>
-        <label className="unidad">unidad</label>
+        <label className="unidad">Unidades</label>
       </div>
       {/* con o sin existencias */}
       <div className="existencias">

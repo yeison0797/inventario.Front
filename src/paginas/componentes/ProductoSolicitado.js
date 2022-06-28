@@ -1,5 +1,5 @@
 import React from "react";
-import '../hojas-de-estilo/ProductoSolicitado.css';
+import './css/ProductoSolicitado.css';
 
 export function ProductoSolicitado(){
   return(

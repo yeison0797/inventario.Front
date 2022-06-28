@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import './App.css';
 import { PantallaPrincipal } from './paginas/PantallaPrincipal';
-import Usuarios from './componentes/Usuarios';
-import Productos from './componentes/Productos';
-import Informes from './componentes/Informes';
+import Usuarios from './paginas/Usuarios';
+import Productos from './paginas/Productos';
+import Informes from './paginas/Informes';
 
 function App() {
   return (

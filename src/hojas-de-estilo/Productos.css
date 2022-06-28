@@ -80,8 +80,8 @@ body {
 
 .productos {
     grid-area: 2 / 2 / 6 / 5;
-
     overflow-y: scroll;
+    padding: 5em;
 }
 
  /* Scroll para productos personalizado */
