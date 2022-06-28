@@ -1,0 +1,78 @@
+.tarjeta{
+    width: 80%;
+    height: 16vh;
+    background-color: white;
+    border-radius: 20px;
+    border: solid black;
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.check-nombre{
+    height: 100%;
+    width: 24vw;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 125px 0px 25px;
+}
+
+.nombre-id{
+    display: flex;
+    flex-direction: column;
+}
+
+.id{
+    font-size: 1vw;
+}
+.nombre{
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+
+.cantidad-unidad{
+    height: 100%;
+    width: 24vw;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 95px 0px 180px;
+}
+
+.cantidad{
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.unidad{
+    font-size: 1vw;
+}
+
+.existencias{
+    height: 100%;
+    width: 12vw;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+.btn-existencias{
+    height: 30%;
+    width: 8vw;
+    /* background-color: rgb(233, 230, 230); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black;
+    border-radius: 5px;
+
+}
+
+.label-existencias{
+    font-size: .9vw;
+}

@@ -1,0 +1,59 @@
+.main{
+    background-color: aquamarine;
+    height: 100%;
+    width: 100%;
+    /* position: absolute; */
+    top: 0;
+}
+
+.popup{
+    height: 400px;
+    width: 50%;
+    background-color: white;
+    position: absolute;
+    top: 25%;
+    right: 35%;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+    border-radius: 15px;
+}
+
+.titulo-pop{
+    font-size: 4vh;
+    font-family: serif;  
+    font-weight: bold; 
+}
+
+.popup-header{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px 0 15px;
+    border-bottom: 2px solid black;
+}
+
+.subtitulo{
+    font-size: 2vh;
+    font-family: sans-serif;
+}
+
+.formulario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 30px 0 15px;
+}
+
+.form-floating{
+    width: 45%;
+    height: 10vh;
+}
+
+.formulario2{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px 0 15px;
+  
+}
+.form-floating2{
+    width: 25%;
+    height: 10vh;
+}
