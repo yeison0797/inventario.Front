@@ -1,0 +1,29 @@
+.producto-solicitado{
+    width: 90%;
+    height: 7vh;
+    background-color: rgb(202, 200, 200);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.label-producto-solicitado{
+    font-size: 0.9vw;
+    padding-left: 10px;
+    padding-right: 70px;
+}
+
+.entrada-cantidad{
+    width: 10%;
+    height: 5vh;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.label-unidad{
+    padding-right: 25px;
+}
+

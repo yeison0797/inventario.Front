@@ -1,0 +1,144 @@
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+.container-main {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+.presentacion-login {
+    display: flex;
+    padding: 2em;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: black;
+    color: white;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5em;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+.titulo-login {
+    display: block;
+    font-size: 2.3em;
+}
+
+.subtitulos {
+    display: block;
+    margin-top: 1.5em;
+    padding: 0.5em 0em;
+    font-size: 0.8em;
+}
+
+.inputs {
+    display: block;
+    /* position: relative; */
+    width: 26em;
+    border: 0;
+    border-radius: .5em;
+    background-color: rgb(233, 231, 231);
+    color: rgb(144, 144, 144);
+    font-size: .8em;
+    padding: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.inputs:focus {
+    outline: none;
+    border: 0;
+    border-bottom: 0.2em solid black;
+    font-size: .8em;
+}
+
+.btn-inicio-sesion {
+    display: block;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: .7em;
+    text-decoration: none;
+    border: .2em solid black;
+    border-radius: .4em;
+    margin-top: 2.5em;
+    margin-bottom: .7em;
+    text-decoration-line: none;
+}
+
+.btn-inicio-sesion:hover {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-olvido-contraseña {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(177, 177, 177);
+    font-size: .9em;
+}
+
+/* Versión celular */
+@media only screen and (max-width: 478px) {    
+    
+    .container-main{
+        font-size: .7em;
+    }
+
+    .inputs {
+        width: 19em;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .container-main {
+        margin: 0;
+        display: block;
+        /* background-color: black; */
+        /* color: white; */
+    }
+
+    .login {
+        font-size: 1.3em;
+        justify-content: space-evenly;
+        background-color: white;
+        height: 85%;
+    }
+
+    .titulo-login{
+    text-align: center;
+    }
+
+    .presentacion-login{
+        font-size: .8em;
+        padding: .1em;
+    }
+    .login-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 70%;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .container-main {
+        font-size: 1em;
+    }
+
+    .inputs{
+        width: 35em;
+    }
+}
