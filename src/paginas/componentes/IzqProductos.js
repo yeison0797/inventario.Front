@@ -34,7 +34,7 @@ export function IzqProductos() {
 
 
 
-      <div className="contenido-productos pt-3">
+      <div className="contenido-productos pt-2">
         {listaProductos.map(producto => {
           return (
             <ProductoCreado producto={producto} />

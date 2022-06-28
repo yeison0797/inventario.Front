@@ -5,7 +5,7 @@ import { BusquedaTrabajadores } from './BusquedaTrabajadores';
 
 export function DerProductos(){
   return(
-    <div className="der">
+    <div className="der px-3">
       <div className="titulo">
         <label className="titulo-resumen">Resumen del movimiento</label>
       </div>

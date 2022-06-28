@@ -1,4 +1,4 @@
-.producto-solicitado{
+.producto-solicitado {
     width: 90%;
     height: 7vh;
     background-color: rgb(202, 200, 200);
@@ -7,23 +7,24 @@
     align-items: center;
 }
 
-.label-producto-solicitado{
+.label-producto-solicitado {
     font-size: 0.9vw;
     padding-left: 10px;
     padding-right: 70px;
 }
 
-.entrada-cantidad{
-    width: 10%;
-    height: 5vh;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+.entrada-cantidad {
+    width: 45px;
+    height: 42px;
+    line-height: 1.65;
+    float: left;
+    display: block;
+    padding: 0;
+    margin: 0;
+    padding-left: 20px;
+    border: 1px solid #eee;
 }
 
-.label-unidad{
+.label-unidad {
     padding-right: 25px;
 }
-
