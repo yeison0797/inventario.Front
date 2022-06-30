@@ -3,35 +3,40 @@ import './css/DerProductos.css';
 import { ProductoSolicitado } from './ProductoSolicitado';
 import { BusquedaTrabajadores } from './BusquedaTrabajadores';
 
-export function DerProductos(){
-  return(
+export function DerProductos() {
+  return (
     <div className="der px-3">
-      <div className="titulo">
-        <label className="titulo-resumen">Resumen del movimiento</label>
-      </div>
-      <div className="productos-seleccionados">
-        <label className="titulo-productos-seleccionados">Productos solicitados:</label>
-        <div className="scroll-de-productos">
-          <div className="numero-de-productos">
-            <ProductoSolicitado/>
-          </div>
-        </div>
+
+
+      <label className="titulo-resumen">Resumen del movimiento</label>
+
+      <label className="titulo-productos-seleccionados">Productos solicitados:</label>
+      <div className="numero-de-productos">
+        <ProductoSolicitado />
+        <ProductoSolicitado />
+        <ProductoSolicitado />
+        <ProductoSolicitado />
+        <ProductoSolicitado />
+        <ProductoSolicitado />
+        <ProductoSolicitado />
+        <ProductoSolicitado />
+        <ProductoSolicitado />
       </div>
       <div className="buscar-persona">
         <label className="solicitante-movimiento">Solicitante del movimiento:</label>
-        <div className="nombre-persona-solicitante">  
-        </div>
         <div className="componente-trabajadores">
-          <BusquedaTrabajadores/>
+          <BusquedaTrabajadores />
+        </div>
+        <div className="botones">
+          <a className="btn-asignar" href="#">Asignar</a>
         </div>
       </div>
-      <div className="alertas">
+      {/* <div className="alertas">
         <div class="alert alert-success" role="alert">
           A simple success alert—check it out!
         </div>
-      </div>
-      <div className="botones">
-      </div>
+      </div> */}
+
     </div>
   )
 }

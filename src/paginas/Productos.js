@@ -2,6 +2,7 @@ import React from 'react'
 import { IzqProductos } from './componentes/IzqProductos'
 import { DerProductos } from './componentes/DerProductos'
 import '../hojas-de-estilo/Productos.css';
+import { Link } from "react-router-dom";
 
 function Productos() {
   return (
@@ -13,26 +14,26 @@ function Productos() {
 
           <div class="sidebar">
             <label class="cubo m-0">Baúless</label>
-            <a class="cubo" href="#">
+            <Link to="/informes" class="cubo">
               <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="bg-dark" class="bi bi-box-seam"
                 viewBox="0 0 16 16">
                 <path
                   d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z" />
               </svg>
-            </a>
-            <a class="cubo" href="#">
+            </Link>
+            <Link to="/usuarios" class="cubo" href="#">
               <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="bg-dark"
                 class="bi bi-file-earmark-text-fill" viewBox="0 0 16 16">
                 <path
                   d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM4.5 9a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1h-4z" />
               </svg>
-            </a>
-            <a class="cubo" href="#">
+            </Link>
+            <Link to="/usuarios" class="cubo" href="#">
               <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="bg-dark" class="bi bi-person-fill"
                 viewBox="0 0 16 16">
                 <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
               </svg>
-            </a>
+            </Link>
           </div>
 
           {/* Sección Navbar */}

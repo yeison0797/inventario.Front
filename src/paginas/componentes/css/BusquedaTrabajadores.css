@@ -1,13 +1,14 @@
 .recuadro-busqueda{
     width: 90%;
-    height: 18.5vh;
+    
     background-color: bisque;
     border-radius: 10px;
     border: solid black;
     background-color: white;
     display: flex;
     justify-content: center;
-    padding-top: 10px;
+    padding: .9em;
+    flex-direction: column;
 }
 
 .buscar-trabajador{
