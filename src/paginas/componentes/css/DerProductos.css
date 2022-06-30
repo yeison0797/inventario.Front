@@ -19,7 +19,7 @@
 
 .numero-de-productos{
     display: flex;
-    height: 20em;
+    height: 19em;
     flex-direction: column;
     justify-content: start;
     align-items: center;

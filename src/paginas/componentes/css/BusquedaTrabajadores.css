@@ -1,6 +1,6 @@
 .recuadro-busqueda{
-    width: 90%;
-    
+    width: 20em;
+    flex-direction: column;
     background-color: bisque;
     border-radius: 10px;
     border: solid black;
@@ -8,12 +8,28 @@
     display: flex;
     justify-content: center;
     padding: .9em;
-    flex-direction: column;
+    
 }
 
 .buscar-trabajador{
-    width: 90%;
+    width: 18em;
     height: 5vh;
     border-radius: 10px;
     border: solid;
+}
+
+.input-wrapper {
+	position: relative;
+	
+}
+
+.input-icon{
+    color: #191919;
+	position: absolute;
+	width: 1.1em;
+	height: 20px;
+	left: 16em;
+	top: 2.6em;
+	transform: translateY(-50%);
+    cursor: pointer;
 }
