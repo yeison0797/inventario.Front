@@ -5,7 +5,8 @@ import { BusquedaTrabajadores } from './BusquedaTrabajadores';
 
 export function DerProductos() {
   return (
-    <div className="der px-4">
+      <>
+      
 
 
       <label className="titulo-resumen">Resumen del movimiento</label>
@@ -37,6 +38,6 @@ export function DerProductos() {
         </div>
       </div> */}
 
-    </div>
+</>
   )
 }
