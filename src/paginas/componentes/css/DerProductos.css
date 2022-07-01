@@ -19,7 +19,7 @@
 
 .numero-de-productos{
     display: flex;
-    height: 21em;
+    height: 44vh;
     padding: 1em;
     padding-top: .8em;
     flex-direction: column;
