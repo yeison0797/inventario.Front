@@ -1,5 +1,6 @@
 .recuadro-busqueda{
-    width: 20em;
+    width: 40vh;
+    height: 30vh;
     flex-direction: column;
     background-color: bisque;
     border-radius: 10px;
@@ -13,7 +14,7 @@
 }
 
 .buscar-trabajador{
-    width: 18em;
+    width: 35vh;
     height: 5vh;
     border-radius: 10px;
     border: solid;
@@ -28,10 +29,10 @@
 .input-icon{
     color: #191919;
 	position: absolute;
-	width: 1.1em;
-	height: 20px;
-	left: 16em;
-	top: 2.8em;
+	width: 4vh;
+	height: 2.5vh;
+	left: 30vh;
+	top: 5.2vh;
 	transform: translateY(-50%);
     cursor: pointer;
 }

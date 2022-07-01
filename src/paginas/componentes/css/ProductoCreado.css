@@ -1,25 +1,22 @@
 .tarjeta{
     display: block;
-    height: 7em;
+    height: 17vh;
+    width: 100%;
     background-color: white;
     border-radius: 20px;
     border: solid black;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 11px -2px rgba(0,0,0,0.55);
 }
 
 .check-nombre{
-    height: 100%;
-    width: 24vw;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 125px 0px 25px;
+  display: flex;
+  align-items: center;
 }
 
 .nombre-id{
-    display: flex;
-    flex-direction: column;
 }
 
 .id{
@@ -32,12 +29,9 @@
 
 .cantidad-unidad{
     height: 100%;
-    width: 24vw;
-    
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0px 95px 0px 180px;
+   
 }
 
 .cantidad{
@@ -51,11 +45,10 @@
 
 .existencias{
     height: 100%;
-    width: 12vw;
+
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-right: 20px;
 }
 
 .btn-existencias{
