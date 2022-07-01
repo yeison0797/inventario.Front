@@ -1,39 +1,39 @@
 .producto-solicitado {
     width: 100%;
-    /* height: 7vh; */
+    height: 5vh;
     background-color: rgb(202, 200, 200);
     border-radius: 10px;
     display: flex;
     align-items: center;
+    padding: 1em;
+    justify-content: space-between;
 }
 
 .label-producto-solicitado {
-    font-size: 0.9vw;
-    padding-left: 10px;
-    padding-right: 70px;
+    font-size: 0.8vw;
+    font-weight: 600;
 }
 
 .entrada-cantidad {
-    width: 45px;
-    height: 42px;
-    line-height: 1.65;
-    float: left;
+    width: 4em;
+    overflow-y:visible;
     display: block;
-    padding-left: 20px;
-    border: 1px solid #eee;
+    font-size: .7em;
+   
 }
 
 .label-unidad {
     padding-right: 25px;
+    font-size: .8em;
 }
 
-.botones{
+.botones {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.btn-asignar{
+.btn-asignar {
     align-items: center;
     display: block;
     width: 28em;

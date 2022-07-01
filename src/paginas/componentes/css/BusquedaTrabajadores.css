@@ -8,6 +8,7 @@
     display: flex;
     justify-content: center;
     padding: .9em;
+    font-size: .9em;
     
 }
 
@@ -16,6 +17,7 @@
     height: 5vh;
     border-radius: 10px;
     border: solid;
+    padding-left: .5em;
 }
 
 .input-wrapper {
@@ -29,7 +31,7 @@
 	width: 1.1em;
 	height: 20px;
 	left: 16em;
-	top: 2.6em;
+	top: 2.8em;
 	transform: translateY(-50%);
     cursor: pointer;
 }

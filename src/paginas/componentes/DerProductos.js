@@ -5,13 +5,12 @@ import { BusquedaTrabajadores } from './BusquedaTrabajadores';
 
 export function DerProductos() {
   return (
-      <>
-      
+    <div className="der px-4">
 
 
       <label className="titulo-resumen">Resumen del movimiento</label>
 
-      <label className="titulo-productos-seleccionados">Productos solicitados:</label>
+      <label className="titulo-productos-seleccionados p-0">Productos a asignar a los operarios</label>
       <div className="numero-de-productos">
         <ProductoSolicitado />
         <ProductoSolicitado />
@@ -24,7 +23,6 @@ export function DerProductos() {
         <ProductoSolicitado />
       </div>
       <div className="buscar-persona">
-        <label className="solicitante-movimiento">Solicitante del movimiento:</label>
         <div className="componente-trabajadores">
           <BusquedaTrabajadores />
         </div>
@@ -38,6 +36,6 @@ export function DerProductos() {
         </div>
       </div> */}
 
-</>
+    </div>
   )
 }

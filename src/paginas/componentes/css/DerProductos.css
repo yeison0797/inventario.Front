@@ -19,7 +19,9 @@
 
 .numero-de-productos{
     display: flex;
-    height: 19em;
+    height: 21em;
+    padding: 1em;
+    padding-top: .8em;
     flex-direction: column;
     justify-content: start;
     align-items: center;
@@ -91,4 +93,12 @@
 .botones{
     width: 100%;
     height: 10vh;
+}
+.titulo-resumen{
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+.titulo-productos-seleccionados{
+    font-size: .7em;
 }
